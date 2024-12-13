@@ -543,7 +543,7 @@ li{
         gap: 40px;
     }
 }
-@media (max-width: 426px) {
+@media (max-width: 650px) {
     .logo1{
         margin-left: 25px;
         height: 40px !important;
