@@ -624,7 +624,7 @@ li{
         font-size: xx-large !important;
     }
 }
-@media (max-width:650px) {
+@media (max-width:790px) {
     *{
         font-size: small !important;
     }
