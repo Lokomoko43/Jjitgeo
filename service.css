@@ -161,10 +161,7 @@ footer{
 #mainul{
     display: none;
 }
-.footmap{
-    margin-right:56px;
-}
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1030px) {
 .left{
 
     width: 38%;
@@ -190,7 +187,7 @@ i{
     font-size: 25px !important;
 }
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1030px) {
 
     .iforserv, .i{
         font-size: 16px !important;
@@ -246,9 +243,6 @@ i{
         display: none;
     }
 
-    header{
-        margin-left: 20px;
-    }
 
     .ph{
         margin-left: 25px;
@@ -266,10 +260,6 @@ i{
         display: none;
     }
 }
-
-
-
-
 @media (max-width: 1012px) {
 .headul{
     display: none;
@@ -305,12 +295,14 @@ i{
 }
 }
 
-@media (max-width: 768px) {
+@media (max-width:950px) {
     footer{
         width: 100%;
+        flex-direction: column;
+        height: 414px;
     }
     .left{
-        width: 55%;
+        width: 40%;
         margin-left: 0;
 
     }
@@ -321,7 +313,7 @@ i{
         margin-bottom:8px ;
     }
     .imgg{
-        margin-right: -60px !important;
+  
      margin-top: 45px;
      width: 480px;
      height: 460px;  
@@ -334,7 +326,7 @@ i{
         height: 50px !important;
     } 
 }
-@media (max-width: 740px) {
+@media (max-width: 935px) {
     main{
         display: flex;
         flex-direction: column;
@@ -349,12 +341,12 @@ i{
         height: auto;
     }
     .imgg{
-        width: 115%;
+        
         height: auto;
         margin-left: 40px;
     }
 }
-@media (max-width: 426px) {
+@media (max-width: 580px) {
     .logo1{
         margin-left: 25px;
         height: 40px !important;
@@ -367,7 +359,7 @@ i{
     footer{
         height: 100%;
         margin-top: 25px;
-        width: 100%;
+        width: 120%;
         flex-direction: column;
     }
     .fott{
@@ -394,26 +386,36 @@ i{
         height: auto;
     }
         .imgg{
-            width: 115%;
+           
             height: auto;
             margin-left: 40px;
         }
     }
     
-    @media (max-width: 376px){
+    @media (max-width: 400px){
         main{
             margin-top: 40px !important;
         }
         footer{
-            width: 130%;
+            width: 100%;
             gap: 20px;
+        }
+        .imgg{
+            width: 80%;
+            height: auto;
+        }
+        .footmap{
+            width: 80%;
+        }
+        .map{
+            width: 100% !important;
         }
     
     .left{
-        width: 100%;
         height: auto;
     }
-} @media (max-width: 321px){
+
+} @media (max-width: 400px){
     footer{
         width: 100%;
     }
@@ -421,18 +423,8 @@ i{
         margin-top: 15px;
     }
 }
-.footmap{
-    height: 300px;
-  
-}
-.map{
-    height: 98%;
-    width: 500px;
-}
-.marjv{
-    margin-left: 13%;
-}
-@media (min-width: 1537px){
+
+@media (min-width: 1365px){
     h2{
         font-size: 27px !important;
     }
@@ -456,3 +448,4 @@ i{
         overflow-x: hidden;
     }
 }
+
