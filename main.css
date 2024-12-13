@@ -443,7 +443,7 @@ li{
         font-size: medium !important;
     }
 }
-  @media (max-width: 768px) {
+  @media (max-width: 880px) {
     /* start of burger */
     .mainul{
         display: none;
@@ -514,7 +514,7 @@ li{
         height: 50px !important;
     } 
 }
-@media (max-width: 768px) and (min-width: 650px) {
+@media (max-width:880px){
     .grid-container{
         margin-left: 22px;
         width: 95%;
