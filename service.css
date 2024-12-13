@@ -146,7 +146,7 @@ footer{
      height: 300px;
      font-family: "silf", sans-serif;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-evenly !important;
     align-items: center;
 }
 .rightsec{
