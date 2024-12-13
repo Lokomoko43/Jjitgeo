@@ -295,7 +295,7 @@ i{
 }
 }
 
-@media (max-width:950px) {
+@media (max-width:1000px) {
     footer{
         width: 100%;
         flex-direction: column;
@@ -337,7 +337,7 @@ i{
         padding-left: 0 !important;
     }
     .left{
-        width: 80%;
+        width: 100%;
         height: auto;
     }
     .imgg{
@@ -449,3 +449,20 @@ i{
     }
 }
 
+
+
+
+
+
+
+.footmap{
+    height: 265px;
+  
+}
+.map{
+    height: 98%;
+    width: 500px;
+}
+.marjv{
+    margin-left: 13%;
+}
