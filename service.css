@@ -2,7 +2,7 @@
     font-family: 'silf';
     font-weight: 100;
     font-display: auto;
-    src: url('../fonts/bpg_glaho_sylfaen.ttf ') format('truetype');
+    src: url('bpg_glaho_sylfaen.ttf ') format('truetype');
 }
 *{
     margin: 0;
@@ -81,7 +81,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-image: url(../back.jpg);
+    background-image: url(back.jpg);
 
 }
 header{
