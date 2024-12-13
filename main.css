@@ -514,7 +514,7 @@ li{
         height: 50px !important;
     } 
 }
-@media (max-width: 768px) and (min-width: 426px) {
+@media (max-width: 768px) and (min-width: 650px) {
     .grid-container{
         margin-left: 22px;
         width: 95%;
@@ -624,7 +624,7 @@ li{
         font-size: xx-large !important;
     }
 }
-@media (max-width: 426px) {
+@media (max-width:650px) {
     *{
         font-size: small !important;
     }
